@@ -1,0 +1,97 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+  background: #e0e0e0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab-buttons .active {
+  background: #0077ff;
+  color: white;
+}
+
+body.dark-mode .tab-buttons button {
+  background: #333;
+  color: #eee;
+}
+
+body.dark-mode .tab-buttons .active {
+  background: #2196f3;
+  color: white;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+}
+
+.form.active-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+label {
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+
+input, select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.4rem;
+}
+
+button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background: #0077ff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #005fd1;
+}
