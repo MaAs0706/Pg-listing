@@ -1,4 +1,4 @@
-/* Base */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +12,13 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Dark Mode */
+
 body.dark-mode {
   background-color: #3d1e1a;
   color: #f8e8d8;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ body.dark-mode .navbar {
   color: #6b2d26;
 }
 
-/* Toggle Switch */
+
 .switch {
   position: relative;
   display: inline-block;
@@ -106,7 +106,7 @@ input:checked + .slider:before {
   transform: translateX(18px);
 }
 
-/* Hero */
+
 .hero {
   text-align: center;
   padding: 5rem 2rem;
@@ -128,7 +128,7 @@ body.dark-mode .hero {
   margin-bottom: 2rem;
 }
 
-.cta {
+.bl {
   background-color: white;
   color: #6b2d26;
   padding: 0.75rem 1.5rem;
@@ -139,12 +139,12 @@ body.dark-mode .hero {
   transition: 0.3s;
 }
 
-.cta:hover {
+.bl:hover {
   background-color: #6b2d26;
   color: white;
 }
 
-/* Listings Section */
+
 .pg-listings {
   padding: 3rem 2rem;
   background-color: #fff;
@@ -210,7 +210,7 @@ body.dark-mode .pg-card {
   font-size: 0.95rem;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 1rem;
