@@ -135,7 +135,7 @@ body {
     display: block;
 }
 .navbar{
-    width: 100%;
+  width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
