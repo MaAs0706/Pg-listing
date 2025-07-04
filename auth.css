@@ -69,15 +69,18 @@ body {
     margin-right: 10px;
 }
 .or-line {
-    height: 1px;
+    height: 0px;
     background: #6b2d26;
     width: 100%;
     margin: 20px 0;
+    margin-top: 5px;
 }
 .or-text {
     text-align: center;
     color: #6b2d26;
     margin-bottom: 20px;
+    margin-top: 10px;
+    justify-content: center;
 }
 .form-group {
     margin-bottom: 15px;
@@ -115,6 +118,8 @@ body {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    margin-top: 5px;
+    justify-content: center;
 }
 .tab-btn {
     padding: 10px 20px;
