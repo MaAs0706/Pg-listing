@@ -139,40 +139,43 @@ body {
 .tab-content.active {
     display: block;
 }
-.navbar{
-  width: 97%;
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  position: fixed;
+  border-bottom: 1px solid #6b2d26;
+  position: sticky;
   top: 0;
-  left: 0;
   z-index: 10;
 }
 
+body.dark-mode .navbar {
+  background: rgba(61, 30, 26, 0.5);
+  border-bottom: 1px solid #f8e8d8;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #6b2d26;
+}
 
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  margin: 0;
+  align-items: center;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #a22a2a;
+  color: inherit;
   font-weight: 500;
-  transition: color 0.3s;
 }
 
 .navbar a:hover {
-  color: #fff;
-}
-
-
-.auth-wrapper {
-  margin-top: 80px;
+  color: #6b2d26;
 }
