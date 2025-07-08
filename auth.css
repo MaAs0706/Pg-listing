@@ -1,9 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8e8d8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -12,6 +10,8 @@ body {
     display: flex;
     width: 80%;
     max-width: 900px;
+    justify-content: center;
+    align-items: center;
     height: 80%;
     background: #fff;
     border-radius: 20px;
