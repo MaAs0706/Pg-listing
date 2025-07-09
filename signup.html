@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="auth.css">
 </head>
 <body>
+  <header class="navbar">
+    <div class="logo">🏠 PGFinder</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse PGs</a></li>
+        <li><a href="#" id="loginp">Login</a></li>
+        <li><a href="#" id="signupp">Sign Up</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <main class="page-content">
     <div class="container">
         <div class="left-section">
             <img src="illustration home.png" alt="Home Illustration">
@@ -60,6 +73,7 @@
             <div class="signup-link">Already have an account? <a href="login.html">Login</a></div>
         </div>
     </div>
+ </main>
     <script>
         function showTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
